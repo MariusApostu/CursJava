@@ -21,9 +21,10 @@ public class Rectangle {
 	//constructor default
 	public Rectangle() {}
 	
-	public Rectangle(int lungime, int latime) {
+	public Rectangle(int lungime, int latime, String culoare) {
 		this.lungime = lungime;
 		this.latime = latime;
+		this.culoare = culoare;
 	}
 	
 	public String afiseazaCuloareDreptunghi() {

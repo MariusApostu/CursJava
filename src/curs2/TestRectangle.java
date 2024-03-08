@@ -16,7 +16,7 @@ public class TestRectangle {
 		System.out.println(obiect2.calculArie(obiect2.lungime, obiect2.latime));
 		*/
 		
-		Rectangle obiect3 = new Rectangle(8, 12); 
+		Rectangle obiect3 = new Rectangle(8, 12, "alb"); 
 		System.out.println(obiect3.calculArie());
 		System.out.println(obiect3.afiseazaCuloareDreptunghi());
 		//obiect3.calculPerimetru(2.0,12);
