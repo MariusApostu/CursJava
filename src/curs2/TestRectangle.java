@@ -18,8 +18,19 @@ public class TestRectangle {
 		
 		Rectangle obiect3 = new Rectangle(8, 12); 
 		System.out.println(obiect3.calculArie());
+		System.out.println(obiect3.afiseazaCuloareDreptunghi());
 		//obiect3.calculPerimetru(2.0,12);
 		
+
+		Rectangle dreptunghi = new Rectangle ();
+		dreptunghi.latime = 8;
+		dreptunghi.lungime = 3;
+		dreptunghi.inaltime = 2;
+		dreptunghi.culoare = "alb";
+		System.out.println(dreptunghi.afiseazaCuloareDreptunghi());
+	
+		
+	
 
 		
 	}
