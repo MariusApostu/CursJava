@@ -32,6 +32,7 @@ public class Dreptunghi {
 		lungime = scan.nextInt();
 		System.out.println("Introdu latimea :");
 		latime = scan.nextInt();
+		scan.close();
 		
 		//int arieDreptungi = calculArie(lungime, latime);
 		//System.out.println("Aria drptunghi este: " + arieDreptungi);

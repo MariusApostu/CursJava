@@ -20,6 +20,7 @@ public class CelMaiMareDintreTreiNumere {
 		nr2 = scan.nextInt();
 		System.out.println("Please enter third number: ");
 		nr3 = scan.nextInt();
+		scan.close();
 	}
 	
 	public void findOutBigestNumber() {

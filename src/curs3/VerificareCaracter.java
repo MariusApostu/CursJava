@@ -26,7 +26,8 @@ public class VerificareCaracter {
 	public void askTheUserForACharacter() {
 		System.out.println("Please enter a character: ");
 		Scanner scan = new Scanner(System.in);
-		caracter = scan.next().charAt(0);		
+		caracter = scan.next().charAt(0);
+		scan.close();
 	}
 	
 	public void checkIfCharacterIsLetter() {

@@ -18,6 +18,11 @@ public class DataTypesExamples {
 		
 		double calcul = 5.6 + 5.8;
 		System.out.println(calcul);
+		
+		char character = '#'; //un caracter unicode
+		
+		boolean boolValue = true; //valoare true sau false
+		
 	}
 
 }

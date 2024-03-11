@@ -16,7 +16,8 @@ public class CheckOddOrEven {
 	public void askTheUserForANumber() {
 		System.out.println("Please enter a number: ");
 		Scanner scan = new Scanner(System.in);
-		numar = scan.nextInt();		
+		numar = scan.nextInt();
+		scan.close();
 	}
 	
 	public void checkNumberIsOddOrEven() {
