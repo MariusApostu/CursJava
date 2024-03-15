@@ -53,5 +53,19 @@ public class CheckWeekDay {
 		}
 		
 	}
+	/*/* public void printDay() {
+           System.out.println("Astazi este " + zi);
+     }
+Si foloseai mai departe asa:
+}else if (valoare == 1) {
+                zi = "Luni";
+                printDay();
+           }else if (valoare == 2) {
+                zi = "Marti";
+                printDay();
+           }else if (valoare == 3) {
+                zi = "Miercuri";
+                printDay();
+           }else if (valoare == 4) { */
 
 }
