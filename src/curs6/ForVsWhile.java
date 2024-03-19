@@ -32,6 +32,7 @@ public class ForVsWhile {
 			System.out.println(i);
 			System.out.println("Please enter a number: ");
 			i = scan.nextInt();
+			scan.close();
 		}
 	}
 
@@ -43,6 +44,7 @@ public class ForVsWhile {
 			i*=10; //i=i*10
 			System.out.println(i);
 			System.out.println("Please enter a number: ");
+			scan.close();
 		}
 	}
 	
@@ -59,6 +61,8 @@ public class ForVsWhile {
 			}i*=10; //i=i*10
 			System.out.println(i);
 			System.out.println("Please enter a number: ");
+			scan.close();
 		}
 	}
+	
 }
