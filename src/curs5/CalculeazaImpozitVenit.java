@@ -21,6 +21,7 @@ public class CalculeazaImpozitVenit {
 		
 		double suma = 0.0;
 		int venituri = 0;
+		scan.close();
 		
 		
 		System.out.println("Cate venituri ai?");
