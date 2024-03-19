@@ -26,7 +26,7 @@ public class CelsiusToFahrenheit {
 			System.out.println("Introdu temperatura in grade celsius ");
 		celsius = scan.nextInt();
 		fahrenheit = (celsius * 9/5) + 32;
-		System.out.println( "Temperatura Celsius de " + celsius + " de grade este in Farenheit " + fahrenheit + " grade");
+		System.out.println( "Temperatura Celsius de " + celsius + " grade este in Farenheit " + fahrenheit + " grade");
 			
 	}
 		

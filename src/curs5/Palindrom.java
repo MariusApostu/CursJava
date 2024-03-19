@@ -13,13 +13,13 @@ public class Palindrom {
 
 		// radar
 
-		String cuvant = "radar";
+		String cuvant = "caiac";
 		String cuvantIntors = "";
 
 		for (int i = cuvant.length() - 1; i >= 0; i--) {
 			cuvantIntors = cuvantIntors + cuvant.charAt(i);
 		}	
-		System.out.println(cuvantIntors.equals(cuvant) ? "Cuvantul este palindrom" : "Cuvantul nu este palindrom");
+		System.out.println(cuvantIntors.equals(cuvant) ? "Cuvantul " + cuvantIntors + " este palindrom" : "Cuvantul nu este palindrom");
 
 		
 		/*
