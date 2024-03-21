@@ -29,14 +29,29 @@ public class Palindrom {
 		 */
 		
 
-		// NU MERGE! X(
+		//Rezolvare cu boolean
 
 		/*
-		 * boolean estePalindrom = true; for (int i = cuvant.length()-1; i >=0; i--) {
-		 * if(cuvant.indexOf(i) == -1) { estePalindrom = false; break; } }
+		 * boolean estePalindrom = true;
 		 * 
-		 * System.out.println(estePalindrom ? "cuvantul este palindrom" :
-		 * "cuvantul nu este palindrom");
+		 * 
+		 * 
+		 * for (int i = 0; i < cuvant.length() / 2; i++) {
+		 * 
+		 * if (cuvant.charAt(i) != cuvant.charAt(cuvant.length() - i - 1)) {
+		 * 
+		 * estePalindrom = false;
+		 * 
+		 * break;
+		 * 
+		 * }
+		 * 
+		 * }
+		 * 
+		 * 
+		 * 
+		 * System.out.println(estePalindrom ? "Cuvantul este palindrom" :
+		 * "Cuvantul nu este palindrom");
 		 */
 	}
 
