@@ -3,7 +3,7 @@ package curs7;
 import java.util.Scanner;
 
 /*
- * Facem un program care valideaza o parolape baza unor reguli
+ * Facem un program care valideaza o parola pe baza unor reguli
  * 
  * La rulare, printam reguli parola
  * pasul 2 cerem username
