@@ -33,7 +33,7 @@ public class PinCodeValidator {
 		}	
 	}while(numberOfTries<3);
 		
-		if (numberOfTries ==3) {
+		if (numberOfTries ==3 && enteredPin != correctPin) {
 			System.out.println("Maximum attempts reached. Card blocked!");
 		}
 	
