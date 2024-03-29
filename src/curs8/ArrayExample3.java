@@ -34,7 +34,7 @@ public class ArrayExample3 {
 			int randomNr = 0;
 						
 			do {
-				randomNr = generateNumber();
+				randomNr = generateNumber();				
 			}while(checkDuplicate(randomNr, numbers));
 						
 			numbers[i] = randomNr;
